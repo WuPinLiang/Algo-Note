@@ -12,6 +12,8 @@ nav:
   - 首頁: index.md
   - 資料結構:
       - 雙 BIT（Fenwick Tree）: data-structure/fenwick-tree.md
+  - APCS:
+      - 綜合筆記: apcs/notes.md
 
 markdown_extensions:
   - admonition
@@ -22,6 +24,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+  - md_in_html
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
