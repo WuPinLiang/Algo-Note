@@ -14,6 +14,8 @@ nav:
       - 雙 BIT（Fenwick Tree）: data-structure/fenwick-tree.md
   - APCS:
       - 綜合筆記: apcs/notes.md
+  - 進階筆記:
+    - 人才培育計劃: advanced/notes.md
 
 markdown_extensions:
   - admonition
