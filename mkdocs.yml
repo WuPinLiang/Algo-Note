@@ -10,9 +10,23 @@ theme:
 
 nav:
   - 首頁: index.md
+  - 資料結構:
+      - 雙 BIT（Fenwick Tree）: data-structure/fenwick-tree.md
 
 markdown_extensions:
   - admonition
-  - codehilite
   - toc:
       permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - javascripts/math.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
