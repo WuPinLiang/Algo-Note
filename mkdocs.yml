@@ -13,7 +13,25 @@ nav:
   - 資料結構:
       - 雙 BIT（Fenwick Tree）: data-structure/fenwick-tree.md
   - APCS:
-      - 綜合筆記: apcs/notes.md
+      
+      - 位元 / 雜湊: apcs/topics/bit-hash-notes.md
+      - 動態規劃:
+          - 置物櫃分配: apcs/topics/dp-notes.md
+          - 內積: apcs/topics/dp-notes-2.md
+          - 投資遊戲: apcs/topics/dp-notes-3.md
+          - 階梯數字 (Digit DP): apcs/topics/dp-notes-4.md
+      - 圖論:
+          - 搬家: apcs/topics/graph-notes.md
+          - Tree Distance I: apcs/topics/graph-notes-2.md
+          - 真假子圖: apcs/topics/graph-notes-3.md
+          - 邏輯電路: apcs/topics/graph-notes-4.md
+          - 病毒演化: apcs/topics/graph-notes-5.md
+      - 貪心 / LIS: apcs/topics/greedy-lis-notes.md
+      - 其他: apcs/topics/misc-notes.md
+      - 區間資料結構:
+          - 幸運數字: apcs/topics/range-ds-notes.md
+          - 低地距離: apcs/topics/range-ds-notes-2.md
+          - 切割費用: apcs/topics/range-ds-notes-3.md
   - 進階筆記:
     - 人才培育計劃: advanced/notes.md
 
