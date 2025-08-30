@@ -23,7 +23,7 @@ diff[r+1] -= x
 
 ---
 
-## 2. 推導前綴和（一步不跳步）
+## 2. 推導前綴和
 
 $\displaystyle \text{prefix}(i) = \sum_{k=1}^{i} a[k] = \sum_{k=1}^{i} \sum_{j=1}^{k} diff[j] = \sum_{j=1}^{i} (i-j+1)\,diff[j] $
 
